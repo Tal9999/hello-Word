@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>boke</title>
+	<style type="text/css">
+		heml,body{/*清除页边距，初始化页面的高度和宽度…*/
+		padding:0;
+		margin:0;
+		height:100%;
+			weight:100%;	
+		
+		}	
+		body{/*把body设置为弹性盒子*/
+		font:0.8em italic,Helvetica,sans-serif;
+			line-height:1.4em;
+		/*定义弹性盒子*/
+		display : -moz-box;
+		display : -webkit-box;
+		display : box;
+		/*水平并列布局*/
+		-moz-box-orient:horizontal;
+		-webkit-box-orient:horizontal;
+		box-orient:horizontal;
+		/*设置盒子内元素水平居中*/
+		-moz-box-pack:center;
+		-webkit-box-pack:center;
+		box-pack:center;
+		
+		
+		}
+		
+		
+		</style>
+</head>
+<div id="page">
+	<header><!--标题头区域-->
+		<h1>博客标题</h1>
+		<p>博客概要</p>
+	</header>	
+	<div id="main"><!--主题头区域-->
+		
+		<section id="content"><!--博主内容-->
+			<article>
+			<h1>文章标题1</h1>
+				<p>文章内容提要1</p>
+			</article>
+			<article>
+			<h1>文章标题2</h1>
+				<p>文章内容提要2</p>
+			</article>
+			<article>
+			<h1>文章标题3</h1>
+				<p>文章内容提要3</p>
+			</article>
+			<article>
+			<h1>文章标题4</h1>
+				<p>文章内容提要4</p>
+			</article>
+			<article>
+			<h1>文章标题5</h1>
+				<p>文章内容提要5</p>
+			</article>
+			<nav>
+			<a href="#">上一页</a>
+			<a href="#">下一页</a>
+			</nav>
+			
+			
+		</section>
+		<section id="sidebar"><!--任务栏-->
+		<div>
+			<h2>
+				<label for="recherche">搜索</label>
+		    </h2>
+		    <form action="#">
+				<input type="text" id="recherche"/>
+				<input type="submit" value="搜索"/>
+		    </form>
+		</div>
+		<div>
+			<h2>友情链接</h2>
+			<ul>
+			<li><a href="#">链接1</li>
+			<li><a href="#">链接2</li>
+			<li><a href="#">链接3</li>
+			<li><a href="#">链接4</li>
+			<li><a href="#">链接5</li>	
+			</ul>
+		</section>
+		</div>
+	<footer><!--页行脚内容-->
+	<p>如有雷同，纯属巧合</p>
+	<p>更多信息请访问<a href="#">网站</a></p>
+	</footer>
+	</div>
+<body>
+</body>
+</html>
